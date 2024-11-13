@@ -1,5 +1,5 @@
 lorem public class Main {
-
+modification du contenu 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Carte []cartes1 = {new Carte(2,2), new Carte(3, 2), new Carte(4,3)};
