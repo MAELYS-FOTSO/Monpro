@@ -1,0 +1,19 @@
+lorem public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Carte []cartes1 = {new Carte(2,2), new Carte(3, 2), new Carte(4,3)};
+		Carte []cartes2 = {new Carte(11,4), new Carte(11, 3), new Carte(11,1)};
+		Joueur joueur1 = new Joueur("Joueur 1",cartes1);
+		Joueur joueur2 = new Joueur("Joueur 2", cartes2);
+		System.out.println("Score de "+ joueur1.getNom()+" = "+ joueur1.score());
+		System.out.println("Score de "+ joueur2.getNom()+" = "+ joueur2.score());
+		if(joueur1.score()>joueur2.score()) {
+			System.out.println("Joueur 1 gagne");
+		}
+		else {
+			System.out.println("Joueur 2 gagne");
+		}
+	}
+
+}
